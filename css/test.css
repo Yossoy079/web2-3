@@ -6,11 +6,11 @@ body{
 }
 kadai{
   font-size: 1.5em;
-  font-weight:bold;
+  font-weight: bold;
   background-color: #ebd842;
   border: solid
 }
-kadai big{
+.big{
   font-size: 4.00em;
 }
 h1{
