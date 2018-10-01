@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
   background-color: #928178; /* 背景色を変える */
-  background-image: url(https://yossoy079.github.io/web2-3/image/kouen2.png); /* 背景画像 */
+  background-image: url("../image/kouen2.png"); /* 背景画像 */
   background-repeat: repeat-y; /* 縦に繰り返し */
 }
 kadai{
@@ -54,7 +54,7 @@ p{
   font-size: 70%
   padding: 20px 0px;
   padding-right: 30px;
-  background-image: url(https://yossoy079.github.io/web2-3/image/kouen2.png); /* 背景画像 */
+  background-image: url("../image/kouen2.png"); /* 背景画像 */
   background-repeat: no-repeat; /* 繰り返さない */
   background-position: right center;
 }
