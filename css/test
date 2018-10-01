@@ -7,6 +7,9 @@ h1{
   color: #a22041;
   text-align: right; /* あえて右揃え */
 }
+h1 span{
+  color: #2b2b2b;
+}
 h2{
   font-size: 1.25em;
   color: #a22041;
@@ -22,6 +25,19 @@ p{
   color: #0d0015;
   line-height: 1.75em;
 }
+#hello{
+  border-top: #6fbb9a 1px dotted;
+  border-left: #d0e35b 10px solid;
+  margin-bottom: 0; /* 隣り合う要素との間隔 */
+  padding: 5px 20px;
+  text-aligin: left; /* めちゃくちゃ */
+}
+.helloclass{
+  border-top: #6fbb9a 1px dotted;
+  border-left: #d0e35b 10px solid;
+  margin-bottom: 0; /* 隣り合う要素との間隔 */
+  padding: 5px 20px;
+  text-aligin: center; /* めちゃくちゃ */
 li{
   font-size: 0.8em;
   color: #0d0015;
