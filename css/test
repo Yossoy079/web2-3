@@ -1,1 +1,38 @@
-
+@charset "UTF-8";
+body{
+  background-color: #928178; /* 背景色を変える */
+}
+h1{
+  font-size: 1.75em;
+  color: #a22041;
+  text-align: right; /* あえて右揃え */
+}
+h2{
+  font-size: 1.25em;
+  color: #a22041;
+  border: #94c8b1 1px dotted; /* 境界線 */
+  border-left: #d0e35b 10px solid;
+  margin-bottom: 0; /* 隣り合う要素との間隔 */
+  padding: 5px 20px;
+  /* 正直この辺よくわかっていない */
+}
+p{
+  font-size: 0.8em;
+  background-color: #c8c2be; /* 段落の文字の背景の色だけが変わる */
+  color: #0d0015;
+  line-height: 1.75em;
+}
+li{
+  font-size: 0.8em;
+  color: #0d0015;
+}
+address{
+  font-size: 0.75em;
+  font-style: italic;
+}
+a{
+  color: #74325c;
+}
+a:hover{
+  color: #884898; /* マウスが乗った時だけ特別な色 */
+}
