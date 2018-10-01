@@ -1,6 +1,17 @@
 @charset "UTF-8";
 body{
   background-color: #928178; /* 背景色を変える */
+  background-image: url(image/kouen2.png); /* 背景画像 */
+  background-repeat: repeat-y; /* 縦に繰り返し */
+}
+kadai{
+  font-size: 1.5em;
+  font-weight:bold;
+  background-color: #ebd842;
+  border: solid
+}
+kadai big{
+  font-size: 4.00em;
 }
 h1{
   font-size: 1.75em;
@@ -38,6 +49,15 @@ p{
   margin-bottom: 0; /* 隣り合う要素との間隔 */
   padding: 5px 20px;
   text-aligin: center; /* めちゃくちゃ */
+}
+.imgclass{
+  font-size: 70%
+  padding: 20px 0px;
+  padding-right: 30px;
+  background-image: url(image/kouen2.png); /* 背景画像 */
+  background-repeat: no-repeat; /* 繰り返さない */
+  background-position: right center;
+}
 li{
   font-size: 0.8em;
   color: #0d0015;
